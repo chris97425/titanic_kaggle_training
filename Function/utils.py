@@ -14,10 +14,9 @@ def get_title(user_name):
 
 #Define a class by age and sex
 def class_of_people_by_age_sex(age, sex):
-    print(sex)
     if age<=12:
         return "Children"
     elif age>=50 and sex==1:
-        return "female_a_48"
+        return "female_a_50"
     else :
         return "middle"
