@@ -1,5 +1,6 @@
 import re
 
+
 def check_all_group(x):
     if (x.Survived == 1).all():
         return "Rich."
